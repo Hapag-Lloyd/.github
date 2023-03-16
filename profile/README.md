@@ -9,7 +9,7 @@ quality of our services.
 
 Our open source strategy is built on four key principles:
 
-- Collaboration: We believe in working together with the open source community to create better solutions for our 
+- Collaboration: We believe in working together with the open source community to create better solutions for our
   customers. We actively contribute to open source projects, share our expertise, and engage in constructive dialogue
   with other developers.
 
