@@ -18,7 +18,7 @@ At Hapag-Lloyd, we are committed to building a strong and vibrant open source co
 
 Thank you for visiting our GitHub profile page, and we look forward to collaborating with you!
 
-## Become a member
+## Become a member (employees only)
 
 Please create a merge request in our internal repository "Infrastructure - Hapag-Lloyd GitHub Organization". Add a new resource to the file `members.tf` as shown below.
 
@@ -26,5 +26,22 @@ Please create a merge request in our internal repository "Infrastructure - Hapag
 resource "github_membership" "first_last_name" {
   username = "github_user_id"
   role     = "member"
+}
+```
+
+## Setup a new repository
+
+Please create a merge request in our internal repository "Infrastructure - Hapag-Lloyd GitHub Organization". Add a new resource to the file `repositories` as shown below. You benefit from a standard setup providing you with common workflows, label setup and branch protections.
+
+```hcl
+# owner: <names / HL user ids> of the owners
+module "descriptive_repository_name" {
+  source = "./modules/default_repository"
+
+  type = "terraform-module" # e.g. java, terraform-module
+
+  name        = "github-repository-name"
+  description = "Some sentences describing the contents."
+  topics      = ["some", "github", "topics", "to", "add"]
 }
 ```
