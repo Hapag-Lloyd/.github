@@ -12,9 +12,11 @@
   ],
   "ignoreWords": [
     "amannn",
+    "baumato",
     "codeowners",
     "codeql",
     "datasource",
+    "dekarti",
     "dorny",
     "hmarr",
     "ibiqlik",
@@ -22,7 +24,9 @@
     "ludeeus",
     "markdownlint",
     "mktemp",
+    "noxone".
     "rhysd",
+    "rosczja",
     "ruleset",
     "sarif",
     "shellcheck",
