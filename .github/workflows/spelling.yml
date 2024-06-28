@@ -9,8 +9,8 @@ jobs:
   cspell:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
 
-      - uses: streetsidesoftware/cspell-action@ca4bb065dd09aca9c90c935f7dc9bb625985226c # v6.1.0
+      - uses: streetsidesoftware/cspell-action@542d05c6a8980c81277ec229f9beadf4ab3f5a34 # v6.4.0
         with:
           config: .config/cspell.json
